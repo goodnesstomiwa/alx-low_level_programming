@@ -2,15 +2,15 @@
 
 /**
  * Print alphabet_x10 - Make alphabet x10 times
-  *
-  * Return: Always 0 
-  */
+ *
+ * Return: Always 0 (Success)
+ */
 void print_alphabet_x10(void)
 {
 	char x;
-	int i = 0;
+	int i;
 
-	while (i <= 9)
+	for (i = 1; i <= 10; 1++)
 	{
 		for (x = 'a'; x <= 'z'; x++)
 		{
@@ -18,7 +18,5 @@ void print_alphabet_x10(void)
 		}
 
 		_putchar('\n');
-
-		i++;
 	}
 }
