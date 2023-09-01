@@ -1,6 +1,6 @@
+#include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
-#include "holberton.h"
 
 /**
   * clear_bit - Sets the value of a bit to 0 at a given index
